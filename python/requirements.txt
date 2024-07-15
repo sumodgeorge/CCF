@@ -1,3 +1,4 @@
 loguru >= 0.5, == 0.*
 cryptography == 37.*
 string-color >= 1.2.1
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
