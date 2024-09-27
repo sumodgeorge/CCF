@@ -14,3 +14,6 @@ docutils==0.17.*
 # mistune 2.0.0-rc1 causes "AttributeError: module 'mistune'
 # has no attribute 'BlockGrammar'" error when building doc
 mistune<2.0.0
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
